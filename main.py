@@ -15,7 +15,7 @@ iris = load_iris()
 df= pd.DataFrame(iris.data, columns=iris.feature_names)
 df['species']=iris.target
 df['species']=df['species'].apply(lambda x: iris.target_names[x])
-
+print(df)
 
 
 #counting the species
@@ -26,6 +26,13 @@ plt.show()
 #pairplotting
 sns.pairplot(df, hue='species')
 plt.show()
+
+
+#scatterplot
+sns.scatterplot(df, x= 'sepal length (cm)', y= 'sepal width (cm)' , hue= "species")
+plt.show()
+
+
 x = iris.data  # features (the 4 numbers)
 y = iris.target  # labels (0,1,2)
 
