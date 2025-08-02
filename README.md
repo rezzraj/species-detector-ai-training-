@@ -63,7 +63,6 @@ Predicted species: setosa
 ---
 
 ## **Why This Project?**
-✅ Great for **beginners in ML & Data Science**  
 ✅ Covers **data visualization + model training** in one workflow  
 ✅ Shows **practical use of K-Nearest Neighbors (KNN)**  
 
